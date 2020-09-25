@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.hero {
+    width: 100%;
+    height: 570px;
+    background-image: url(../untensil_imgs/raul-angel-gaftCuyofVg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 12vw;
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    transition: transform .8s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.indent {
+    margin-left: 35%;
+}
+
+.header_indent {
+    margin-left: 30%;
+}
