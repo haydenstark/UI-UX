@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg {
+    background-color: #b3baab;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: none;
+}
+
+.my-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 2em;
+    background-color: #b3baabcb;
+    padding: 30px;
+    border-radius: 0 0 0 20px;
+}
+
+.my-nav a {
+    transition: color .6s;
+}
+
+.my-nav a:hover {
+    color: #404356;
+}
+
+.header {
+    color: #404356;
+    font-family: Bradley Hand, cursive;
+}
+
+.paragraph {
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
+#title {
+    margin-top: 30vh;
+    font-size: 4.5em;
+}
+
+#info {
+    margin-top: 5vh;
+    margin-left: 11vw;
+}
+
+#contact {
+    font-size: 3.6em;
+    margin-top: 22vh;
+}
+
+#contact-text {
+    width: 75%;
+}
+
+input, input::placeholder {
+    color: #404356;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control:focus {
+    border-color: #404356cb;
+    box-shadow: 0 0 8px #404356;
+}
+
+.w65 {
+    width: 65%;
+}
+
+.w85 {
+    width: 85%;
+}
+
+.embed-responsive {
+    margin-top: 25vh;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .img {
+        height: 65vh;
+    }
+
+    #title {
+        margin-top: 5vh;
+    }
+
+    #contact {
+        text-align: left;
+        margin-left: 11vw;
+        margin-top: 12vh;
+    }
+
+    #contact-text {
+        text-align: justify;
+        width: 65%;
+    }
+
+    .embed-responsive {
+        margin-top: 10vh;
+        margin-bottom: 4vh; 
+    }
+
+}
