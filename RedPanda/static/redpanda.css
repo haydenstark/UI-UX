@@ -17,6 +17,10 @@ html {
     padding: none;
 }
 
+.img:hover {
+    cursor: pointer;
+}
+
 .my-nav {
     position: fixed;
     top: 0;

@@ -17,7 +17,7 @@
         <div class="container-fluid bg">
             <div class="row">
                 <div class="col-lg-6 px-0 h90">
-                    <img id="top" class="img" src="static/jim-bread-nM8eyjYKSxk-unsplash.jpg">
+                    <img id="top" class="img" src="static/jim-bread-nM8eyjYKSxk-unsplash.jpg" onclick="playAudio()">
                 </div>
 
                 <div class="col-lg-6">
@@ -55,6 +55,7 @@
                 Known to be excellent climbers and solitary creatures, red pandas mainly eat bamboo, but will also consume eggs, birds, and insects.
                 They are the only remaining mammals in the Ailuridae family.</p>
         </div>
+        <audio id="ambiance" src="static/Bird_in_Rain-Mike_Koenig-441535833.mp3"></audio>
 
         <script>
             var typed = new Typed('#typed', {
@@ -64,6 +65,12 @@
                 $(".typed-cursor").hide();
             }
         });
+        </script>
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("ambiance");
+                audio.play();
+            }
         </script>
         
         
