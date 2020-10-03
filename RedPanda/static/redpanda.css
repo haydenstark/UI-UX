@@ -6,6 +6,10 @@ html {
     background-color: #b3baab;
 }
 
+.h90 {
+    height: 90vh;
+}
+
 .img {
     object-fit: cover;
     width: 100%;
@@ -85,6 +89,10 @@ input, input::placeholder {
 
 
 @media only screen and (max-width: 992px) {
+    
+    .h90 {
+        height: auto;
+    }
 
     .img {
         height: 65vh;
