@@ -1,0 +1,48 @@
+* {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.carousel {
+    position: fixed;
+}
+
+.carousel img {
+    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ch, .quote {
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-shadow: 3px 3px 8px #000000cb;
+}
+
+.ch {
+    margin-top: 20vh;
+    font-size: 8vw;
+}
+
+.quote {
+    margin-top: 70vh;
+    font-size: 2.5vw;
+}
+
+.navbar {
+    font-size: 1.15em;
+}
+
+.navbar-brand {
+    font-size: 1.25em;
+    margin-left: 1vw;
+}
+
+.handhover:hover {
+    cursor: pointer;
+}
